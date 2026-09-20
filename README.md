@@ -57,7 +57,7 @@ WHERE DATEDIFF(DAY, created_date, ISNULL(canceled_date, GETDATE())) >= 150;
 ---
 
 ## 🖥️ Power BI Dashboard
-*(Insert screenshot of your dashboard here: `images/dashboard_overview.png`)*
+*(Insert screenshot of your dashboard here: `subcription.pdf`)*
 
 * **Page 1: Subscription KPI Overview** (Retention vs. Churn rates, KPI cards, Signup volume).
 * **Page 2: Cohort & Lifecycle Analysis** (Tenure distribution, monthly trends).
@@ -67,7 +67,7 @@ WHERE DATEDIFF(DAY, created_date, ISNULL(canceled_date, GETDATE())) >= 150;
 ## 🚀 How to Run Locally
 1. Clone the repo:
    ```bash
-   git clone [https://github.com/](https://github.com/)<your-username>/subscription-retention-analysis.git
+   git clone [[https://github.com/](https://github.com/)<your-username>/subscription-retention-analysis.git](https://github.com/Anshuman22coder/SUBCRIPTION_DA.git)
    ```
 2. Run SQL scripts in `sql/01_kpi_queries.sql` in SQL Server Management Studio (SSMS).
 3. Open `Subscription_Dashboard.pbix` in Power BI Desktop to view the interactive visuals.
