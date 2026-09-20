@@ -60,14 +60,14 @@ WHERE DATEDIFF(DAY, created_date, ISNULL(canceled_date, GETDATE())) >= 150;
 ### Page 1: Subscription KPI Overview
 *Retention vs. Churn rates, active subscriber counts, and sign-up velocity.*
 
-![Subscription KPI Overview](images/dashboard_p1.png)
+![Subscription KPI Overview](<Screenshot 2026-09-20 225351.png>)
 
 ---
 
 ### Page 2: Cohort & Lifecycle Analysis
 *Tenure distribution, cohort retention curve, and monthly churn trends.*
 
-![Cohort and Lifecycle Analysis](images/dashboard_p2.png)
+![Cohort and Lifecycle Analysis](<Screenshot 2026-09-20 225357.png>)
 
 ---
 
