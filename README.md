@@ -74,7 +74,8 @@ WHERE DATEDIFF(DAY, created_date, ISNULL(canceled_date, GETDATE())) >= 150;
 ## 🚀 How to Run Locally
 1. Clone the repo:
    ```bash
-   git clone [[https://github.com/](https://github.com/)<your-username>/subscription-retention-analysis.git](https://github.com/Anshuman22coder/SUBCRIPTION_DA.git)
+ 
+git clone https://github.com/Anshuman22coder/SUBCRIPTION_DA.git
    ```
 2. Run SQL scripts in `SQL/sqls_for_subscribtion_dataset.docx` in SQL Server Management Studio (SSMS).
 3. Open `subscription_.pbix` in Power BI Desktop to view the interactive visuals.
