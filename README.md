@@ -55,12 +55,19 @@ WHERE DATEDIFF(DAY, created_date, ISNULL(canceled_date, GETDATE())) >= 150;
    * Identified accounts with multiple subscriptions (`HAVING COUNT(created_date) > 1`)[cite: 1], indicating a reactivation funnel that can be targeted with automated re-engagement campaigns.
 
 ---
-
 ## 🖥️ Power BI Dashboard
-*(Insert screenshot of your dashboard here: `subcription.pdf`)*
 
-* **Page 1: Subscription KPI Overview** (Retention vs. Churn rates, KPI cards, Signup volume).
-* **Page 2: Cohort & Lifecycle Analysis** (Tenure distribution, monthly trends).
+### Page 1: Subscription KPI Overview
+*Retention vs. Churn rates, active subscriber counts, and sign-up velocity.*
+
+![Subscription KPI Overview](images/dashboard_p1.png)
+
+---
+
+### Page 2: Cohort & Lifecycle Analysis
+*Tenure distribution, cohort retention curve, and monthly churn trends.*
+
+![Cohort and Lifecycle Analysis](images/dashboard_p2.png)
 
 ---
 
